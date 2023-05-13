@@ -1,6 +1,7 @@
 main{
     text-align: center;
     padding: 20px;
+    padding-top: 255px;
 }
 
 .head {
@@ -11,6 +12,8 @@ main{
     text-align: center;
     padding-top:  80px;
     padding-bottom: 30px;
+    position: fixed;
+    width: 100%;
 }
 
 .footer {
@@ -21,10 +24,15 @@ main{
 }
 
 .nav {
-    padding: 10px;
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    top: 180px;
     align-items: center;
 }
 
