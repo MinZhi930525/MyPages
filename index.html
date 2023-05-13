@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <title>我的頁面</title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+    <body style="margin: 0px;">
+        <div class="head">我的首頁！！（下面有照片）</div>
+
+        <nav class="nav">
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click1(this)"
+            >我的首頁</div>
+
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click2(this)"
+            >個人經歷</div>
+
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click3(this)"
+            >未來規劃</div>
+
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click4(this)"
+            >聯絡方式</div>
+
+            <script>
+                function over (elem) {
+                    elem.style.backgroundColor="#dfdfdf";
+                    elem.style.borderRadius="5px";
+                }
+
+                function out(elem) {
+                    elem.style.backgroundColor="#f1f1f1";
+                    elem.style.fontWeight="normal";
+                }
+
+                function up(elem) {
+                    elem.style.fontWeight="normal";
+                }
+
+                function down(elem) {
+                    elem.style.fontWeight="bold";
+                }
+                
+                function click1() {
+                    window.document.location.href="index.html";
+                }
+
+                function click2() {
+                    window.document.location.href="index2.html";
+                }
+
+                function click3() {
+                    window.document.location.href="index3.html";
+                }
+
+                function click4() {
+                    window.document.location.href="index4.html";
+                }
+            </script>
+        </nav>
+
+        <main>
+            <div class="headline">我是誰？</div>
+            <div class="info">
+                我是鐘民智！目前就讀中央大學數學系一年級，是一位道道地地的高雄人！最喜歡的事情是吃東西跟睡覺！我人生的至理名言是：「能坐就不要站，能躺就不要坐！」
+            </div>
+            <p></p>
+            <br />
+            <div class="headline">我的興趣？</div>
+            <div class="info">
+                我喜歡的運動是游泳，因為我最討厭汗留在自己身上的感覺，整個讓我很不爽！而且我很喜歡游泳池的氯味，所以我特別喜歡游泳！我還喜歡做一些設計相關的事情！因為喜歡看到自己的作品被實現的感覺！
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer">
+                ©Copyright 2023，本網站為個人之用
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <title>我的頁面</title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+    <body style="margin: 0px;">
+        <div class="head">個人經歷！！（下面有照片）</div>
+
+        <nav class="nav">
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click1(this)"
+            >我的首頁</div>
+
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click2(this)"
+            >個人經歷</div>
+
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click3(this)"
+            >未來規劃</div>
+
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click4(this)"
+            >聯絡方式</div>
+
+            <script>
+                function over (elem) {
+                    elem.style.backgroundColor="#dfdfdf";
+                    elem.style.borderRadius="5px";
+                }
+
+                function out(elem) {
+                    elem.style.backgroundColor="#f1f1f1";
+                    elem.style.fontWeight="normal";
+                }
+
+                function up(elem) {
+                    elem.style.fontWeight="normal";
+                }
+
+                function down(elem) {
+                    elem.style.fontWeight="bold";
+                }
+
+                function click1() {
+                    window.document.location.href="index.html";
+                }
+
+                function click2() {
+                    window.document.location.href="index2.html";
+                }
+
+                function click3() {
+                    window.document.location.href="index3.html";
+                }
+
+                function click4() {
+                    window.document.location.href="index4.html";
+                }
+            </script>
+        </nav>
+
+        <main>
+            <div>寫一些廢話</div>
+        </main>
+
+        <footer>
+            <div class="footer">
+                ©Copyright 2023，本網站為個人之用
+            </div>
+        </footer>
+    </body>
+</html>

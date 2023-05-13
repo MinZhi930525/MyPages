@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <title>我的頁面</title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+    <body style="margin: 0px;">
+        <div class="head">聯絡方式！！（下面有照片）</div>
+
+        <nav class="nav">
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click1()"
+            >我的首頁</div>
+
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click2()"
+            >個人經歷</div>
+
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click3()"
+            >未來規劃</div>
+
+            <div
+                class="navChoose"
+                onmouseover="over(this)"
+                onmouseout="out(this)"
+                onmousedown="down(this)"
+                onmouseup="up(this)"
+                onclick="click4()"
+            >聯絡方式</div>
+
+            <script>
+                function over (elem) {
+                    elem.style.backgroundColor="#dfdfdf";
+                    elem.style.borderRadius="5px";
+                }
+
+                function out(elem) {
+                    elem.style.backgroundColor="#f1f1f1";
+                    elem.style.fontWeight="normal";
+                }
+
+                function up(elem) {
+                    elem.style.fontWeight="normal";
+                }
+
+                function down(elem) {
+                    elem.style.fontWeight="bold";
+                }
+
+                function click1() {
+                    window.document.location.href="index.html";
+                }
+
+                function click2() {
+                    window.document.location.href="index2.html";
+                }
+
+                function click3() {
+                    window.document.location.href="index3.html";
+                }
+
+                function click4() {
+                    window.document.location.href="index4.html";
+                }
+            </script>
+        </nav>
+
+        <main>
+            <div class="headline">我的房間？</div>
+            <div class="info">我目前住在中央大學男九A宿舍的520房！打麻將、喝酒還是游泳都可以找我！</div>
+            <br />
+            <div class="headline">我的社群？</div>
+            <br />
+            <div class="info">
+                <a href="https://www.instagram.com/min_930525/" target="_blank">
+                    <img src="https://bucket-img.tnlmedia.com/cabinet/files/consoles/1/teams/1/2022/10/SwtO6lXhn7HnP0HyGTiwS2slFeaTEhl4P0gU2SaU.jpg?w=1200&h=675&fit=crop&auto=compress" width="20%" />
+                </a>
+                <br />
+                <a href="mailto:s651s60111@gmai1.com" target="_blank">
+                    <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/de/e4/4e/dee44e49-0044-f89e-b3cd-3f4f7661ae33/logo_gmail_2020q4_color-0-1x_U007emarketing-0-0-0-6-0-0-0-0-85-220-0.png/1200x630wa.png" width="20%"/>
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer">
+                ©Copyright 2023，本網站為個人之用
+            </div>
+        </footer>
+    </body>
+</html>
